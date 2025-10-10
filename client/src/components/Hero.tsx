@@ -16,17 +16,17 @@ export default function Hero({ onExploreClick }: HeroProps) {
           alt="Investment growth and success"
           className="w-full h-full object-cover"
         />
-        {/* Subtle gradient overlay for professional look */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/70 via-primary/50 to-primary/60" />
+        {/* Subtle gradient overlay - adapts to theme */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/70 via-primary/50 to-primary/60 dark:from-primary/60 dark:via-primary/40 dark:to-primary/50" />
       </div>
 
       {/* Content */}
       <div className="relative h-full flex items-center justify-center px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white drop-shadow-2xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white dark:text-foreground drop-shadow-2xl">
             Invest in Tomorrow's Success Stories
           </h1>
-          <p className="text-lg md:text-xl text-white/95 max-w-2xl mx-auto drop-shadow-lg">
+          <p className="text-lg md:text-xl text-white/95 dark:text-foreground/90 max-w-2xl mx-auto drop-shadow-lg">
             Discover promising startups and be part of the next big innovation. 
             Support entrepreneurs building the future.
           </p>
@@ -34,7 +34,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
             <Button
               size="lg"
               onClick={onExploreClick}
-              className="bg-white text-primary hover:bg-white/90 font-semibold shadow-2xl"
+              className="bg-white dark:bg-foreground text-primary dark:text-background hover:bg-white/90 dark:hover:bg-foreground/90 font-semibold shadow-2xl"
               data-testid="button-explore-startups"
             >
               Explore Startups
