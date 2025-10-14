@@ -1,7 +1,7 @@
 SeedlyInvest is a full-stack web application designed to help users explore and invest in startups. It contains an intuitive, modern UI, startup investment tracking, and a responsive design for a smooth experience.
 
 ## Live Demo
-[View Live Site](https://seedlyinvest-jad.vercel.app)
+[View Live Site](https://jads-seedly-project.vercel.app/)
 
 ## Features
 - Browse and explore startup investment opportunities
