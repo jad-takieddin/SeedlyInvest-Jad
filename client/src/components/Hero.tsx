@@ -31,7 +31,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
           </div>
           
           {/* Main heading with refined typography */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight px-4" style={{ animationDelay: '0.1s', letterSpacing: '-0.02em' }}>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight tracking-tight px-4" style={{ animationDelay: '0.1s', letterSpacing: '-0.02em' }}>
             Invest in Tomorrow's
             <br />
             <span className="inline-block mt-2 font-bold">
