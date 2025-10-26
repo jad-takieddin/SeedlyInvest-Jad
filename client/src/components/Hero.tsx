@@ -30,11 +30,11 @@ export default function Hero({ onExploreClick }: HeroProps) {
             <span>Empowering the next generation of startups</span>
           </div>
           
-          {/* Main heading with gradient text */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight px-4" style={{ animationDelay: '0.1s' }}>
+          {/* Main heading with refined typography */}
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight px-4" style={{ animationDelay: '0.1s', letterSpacing: '-0.02em' }}>
             Invest in Tomorrow's
             <br />
-            <span className="inline-block mt-2">
+            <span className="inline-block mt-2 font-bold">
               <span className="relative">
                 Success Stories
                 <div className="absolute -inset-1 bg-white/20 blur-xl rounded-lg -z-10" />
