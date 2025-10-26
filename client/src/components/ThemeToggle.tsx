@@ -25,12 +25,14 @@ export default function ThemeToggle() {
       size="icon"
       onClick={toggleTheme}
       data-testid="button-theme-toggle"
+      className="glass-strong rounded-xl hover:bg-white/10 transition-all duration-300 hover-lift"
     >
       {theme === "light" ? (
-        <Moon className="h-5 w-5" />
+        <Moon className="h-5 w-5 text-foreground" />
       ) : (
-        <Sun className="h-5 w-5" />
+        <Sun className="h-5 w-5 text-foreground" />
       )}
+      <span className="sr-only">Toggle theme</span>
     </Button>
   );
 }
